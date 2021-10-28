@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background : rgb(67, 77, 80);
+}
+.content{
+    width:95%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: all 0.2 linear;
+    background:white;
+    border: 0.5px solid black;
+}
+.main1{
+    width: 400px;
+    height:auto;
+    text-align: center;
+    background: rgb(73, 73, 146);
+    box-shadow: 0 0 3px black;
+    flex:1 1 200px;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+}
+.name{
+    font-size:45px; 
+    font-weight: bold;
+    color:azure;
+    margin: 0; 
+    padding: 0;
+}
+.mainintro{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin:0;
+    padding: 0;
+}
+
+.education{
+    font-size:35px; 
+    color:azure;
+    height:auto;
+    margin: 0px;
+    margin-top:50px;
+}
+
+.educontent{
+    font-size:20px; 
+    color:azure; 
+    height: auto;
+    padding: 15px;
+}
+
+.internship{
+    width: 200px;
+    height :auto;
+    text-align: left;
+    background: rgb(255, 255, 255);
+    flex:1 1 200px;
+    border: 0.5px solid black;
+    padding: 10px;
+    font-size: 18px;
+    align-content: center;
+    justify-content: center;
+}
+.projectname{
+    width:95%;
+    height: auto;
+    margin: auto;
+    padding:10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: all 0.2 linear;
+    background:white;
+    border: 0.5px solid black;
+    font-size: 25px;
+    font-weight: bold; color:mediumblue; text-align: center
+}
+.project{
+    width: 200px;
+    height:auto;
+    background: white;
+    border: 0.5px solid black;
+    flex:1 1 200px;
+    margin:0.5px;
+    padding: 10px;
+    font-size: 18px;
+}
+.skills1{
+    width: 200px;
+    height:auto;
+    background: white;
+    border: 0.5px solid black;
+    flex:1 1 200px;
+    margin:0.5px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.honours1{
+    width: 200px;
+    height:auto;
+    background: white;
+    border: 0.5px solid black;
+    flex:1 1 200px;
+    margin:0.5px;
+    padding: 10px;
+    font-size: 18px;
+}
+@media (max-width: 900px){
+    .content{
+        height: auto;
+    }
+}
